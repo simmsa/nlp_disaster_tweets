@@ -1,0 +1,41 @@
+---
+title: "DTSA 5511 Introduction to Machine Learning: Deep Learning"
+subtitle: "Week 4: Natural Language Processing with Disaster Tweets"
+author:
+    - name: Andrew Simms
+      affiliation: University of Colorado Boulder
+
+date: today
+
+format:
+    gfm:
+      toc: false
+
+bibliography: ref.bib
+---
+
+
+This project develops a PyTorch [@pytorch] based Recurrent Neural Network (RNN) to classify
+disaster-related tweets as part of the Natural Language Processing with Disaster Tweets Kaggle
+competition [@kaggle_nlp], utilizing a labeled dataset of 10,000 tweets for binary classification
+and submitting the model's predictions for evaluation.
+
+# Model Code
+
+RNN models are in `./week_4.py`
+
+
+# Running Models
+
+```
+./nlp_batch.sh
+```
+
+# Kaggle Scores
+
+![Kaggle Scores](./quarto/week_4_kaggle_scores_2.png){#fig-kaggle}
+
+# References
+
+:::{.refs}
+:::
