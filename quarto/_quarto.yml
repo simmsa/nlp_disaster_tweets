@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: "../docs"
+
+website:
+  title: "Natural Language Processing with Disaster Tweets"
+
+format:
+  html:
+      mainfont: "system-ui, sans-serif"
+      monofont: "ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+      theme: [cosmo, custom.scss]
+      html-math-method: "katex"
+      highlight-style: monokai
+      fig-format: svg
+      code-fold: true
+      code-line-numbers: true
+      embed-resources: true
+      self-contained-math: true
+      toc-title: 'Table of Contents'
+      toc-location: left
+      toc-depth: 5
+      toc-expand: 1
+      number-sections: true
+      table-of-contents: true
