@@ -20,6 +20,9 @@ disaster-related tweets as part of the Natural Language Processing with Disaster
 competition [@kaggle_nlp], utilizing a labeled dataset of 10,000 tweets for binary classification
 and submitting the model's predictions for evaluation.
 
+The full report can be viewed [here](http://www.andrewdsimms.com/nlp_disaster_tweets/).
+
+
 # Model Code
 
 RNN models are in `./week_4.py`

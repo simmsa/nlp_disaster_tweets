@@ -9,6 +9,9 @@ Natural Language Processing with Disaster Tweets Kaggle competition
 binary classification and submitting the model’s predictions for
 evaluation.
 
+The full report can be viewed
+[here](http://www.andrewdsimms.com/nlp_disaster_tweets/).
+
 # Model Code
 
 RNN models are in `./week_4.py`
